@@ -1,0 +1,99 @@
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        margin-left: 60px;
+        margin-right: 60px;
+        .info_superior{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .titulo{
+            margin-left: 0px;
+            h1{
+                font-size: 28px;
+                font-weight: 600px;
+                color: #3E3E3E;
+            }
+            p{
+                font-size: 22px;
+                font-weight: 400px;
+                color: #7A7786;
+            }
+        }
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            background-color: #21BC6B;
+            color: white;
+            border-radius: 5px;
+            border: solid #21BC6B;
+            width: 250px;
+            height: 55px;
+            font-size: 18px;
+            font-weight: 400px;
+            margin-right: 0px;
+            margin-left: 0px;
+            p{
+                margin-bottom: 0px;
+            }
+            img{
+                margin-left: -10px;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+
+    body{
+        margin: 0;
+    }
+
+    .info_superior {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 42vh;
+    }
+
+    .titulo{
+        font-size: 1vh !important;
+    }
+
+    .blocos .row {
+        flex-direction: column;
+        align-items: center;
+        width: 42vh;
+    }
+    .botao-topvei{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 16vh !important;
+        width: 23vh !important;
+        padding: 1vh;
+    } 
+
+    .container{
+        margin-left: 0vh !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .bloco {
+        font-size: 30px;
+        margin-left: -190px;
+    }
+
+    .img-botao{
+        display: none;
+    }
+
+}
